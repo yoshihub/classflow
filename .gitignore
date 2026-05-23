@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules
+.next
+out
+dist
+
+# Laravel
+vendor
+storage/logs/*.log
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Docker / local
+docker/mysql
+mysql_data
+
+# IDE
+.vscode
+.idea
